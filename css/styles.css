@@ -70,3 +70,7 @@ border-radius: 100%;
   color: #ffffff;
   border-color: green;
 }
+.btn-brand:hover{
+  color: #ffffff;
+  background-color: green
+}
