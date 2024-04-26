@@ -12,6 +12,7 @@ a{
   color: #092032;
   text-decoration: none;
   transition: all 0.4s;
+  font-weight: 500;
 }
 img{
   width: 100%;
@@ -59,4 +60,13 @@ border-radius: 100%;
 }
 .navbar-brand span{
   color: #ff4d29;
+}
+/*Navbar button */
+.btn{
+  padding: 9px 24px;
+}
+.btn-brand{
+  background-color: green;
+  color: #ffffff;
+  border-color: green;
 }
