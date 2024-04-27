@@ -17,7 +17,10 @@ a{
 img{
   width: 100%;
 }
-
+.bg-cover{
+  background-position: center !important;
+  background-size: cover !important;
+}
 /* navbabr */
 
 .top-nav{
@@ -78,4 +81,8 @@ border-radius: 100%;
 .btn-brand:hover{
   color: #ffffff;
   background-color: #14452f
+}
+/* SLIDER */
+.slide1{
+  background: linear-gradient(rgba(9,32,50,0.4),rgba(9,32,50,0.4)), url(../images/buffer2.jpg);
 }
