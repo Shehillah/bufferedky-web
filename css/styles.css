@@ -100,10 +100,18 @@ border-radius: 100%;
   place-items: center; 
   background-color: rgb(225, 225, 225, 0.3) !important;
   margin-top: -30px !important;
+  color: #ffffff;
+  font-weight: 700 !important;
+  font-size: 12px !important;
+  border-radius: 100px !important;
 }
 .owl-prev{
   left: 0%;
 }
 .owl-next{
   right: 0%;
+}
+.owl-next:hover,
+.owl-prev:hover{
+background-color: green !important;
 }
