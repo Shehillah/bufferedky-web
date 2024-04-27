@@ -86,3 +86,6 @@ border-radius: 100%;
 .slide1{
   background: linear-gradient(rgba(9,32,50,0.4),rgba(9,32,50,0.4)), url(../images/buffer2.jpg);
 }
+.slide2{
+  background: linear-gradient(rgba(9,32,50,0.4),rgba(9,32,50,0.4)), url(../images/profs.jpg);
+}
