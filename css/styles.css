@@ -27,6 +27,17 @@ section{
   background-position: center !important;
   background-size: cover !important;
 }
+.intro{
+margin-bottom: 40px;
+
+}
+.intro h6{
+font-weight: 400px;
+color: green;
+}
+.intro p{
+  max-width: 500px;
+}
 /* navbabr */
 
 .top-nav{
