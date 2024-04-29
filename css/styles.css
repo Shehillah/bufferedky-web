@@ -129,5 +129,9 @@ background-color: green !important;
 }
 .info-box img{
   width: 90px;
-  margin-right:18px ;
+  margin-right:24px ;
+}
+/* MILESTONE */
+#milestone{
+  background: linear-gradient(rgb(26, 134, 26,0.8), rgb(30, 102, 30,0.8)), url(../images/profs.jpg);
 }
