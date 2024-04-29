@@ -133,5 +133,9 @@ background-color: green !important;
 }
 /* MILESTONE */
 #milestone{
-  background: linear-gradient(rgb(26, 134, 26,0.8), rgb(30, 102, 30,0.8)), url(../images/profs.jpg);
+  background:linear-gradient(rgb(26, 134, 26,0.8), rgb(30, 102, 30,0.8)), url(../images/profs.jpg);
+}
+#milestone .display-4,
+#milestone p{
+  color: #ffffff;
 }
