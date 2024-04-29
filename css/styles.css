@@ -37,6 +37,7 @@ color: green;
 }
 .intro p{
   max-width: 500px;
+  margin: auto;
 }
 /* navbabr */
 
@@ -152,4 +153,32 @@ background-color: green !important;
 }
 #milestone .display-4{
   font-weight: 700;
+}
+
+/*CARD */
+.card{
+  border: none;
+  outline: none;
+  box-shadow: 7px 9px 18px -6px rgba(0,0,0,0.75);
+ -webkit-box-shadow: 7px 9px 18px -6px rgba(0,0,0,0.75);
+ -moz-box-shadow: 7px 9px 18px -6px rgba(0,0,0,0.75);
+}
+.card p{
+  color: gray;
+}
+.circle{
+  height: 70px;
+  width: 70px;
+  background-color: lightgrey;
+  color: black;
+  padding: 12px;
+  font-size: 30px;
+  display: inline-block;
+  border-radius: 50px;
+  margin-bottom: 20px;
+}
+.card:hover .circle{
+  background-color: black;
+  color: white;
+  transition: 0.5s;
 }
