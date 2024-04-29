@@ -139,3 +139,6 @@ background-color: green !important;
 #milestone p{
   color: #ffffff;
 }
+#milestone .display-4{
+  font-weight: 700;
+}
