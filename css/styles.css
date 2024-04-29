@@ -178,7 +178,7 @@ background-color: green !important;
   margin-bottom: 20px;
 }
 .card:hover .circle{
-  background-color: black;
+  background-color: green;
   color: white;
   transition: 0.5s;
 }
