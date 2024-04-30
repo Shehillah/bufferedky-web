@@ -182,3 +182,39 @@ background-color: green !important;
   color: white;
   transition: 0.5s;
 }
+/*TEAM */
+.team-member{
+text-align:center ;
+}
+.team-member .img-wrapper{
+  position: relative;
+  overflow: hidden;
+}
+.team-member .overlay{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: green;
+transition: all 0.4s ease;
+opacity: 0;
+}
+.team-member .social-links{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.4s ease;
+}
+.team-member:hover .overlay{
+  opacity: 0.5;
+  top: 0;
+}
+.team-member:hover .social-links{
+  opacity: 0.5;
+  top: 50%;
+}
+.team-member h5{
+  margin-top: 24px;
+}
