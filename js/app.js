@@ -32,13 +32,17 @@ $(document).ready(function(){
         margin:24,
         responsive:{
             0:{
-            nav:false,
+                items:1,
+                nav:false,
+                margin:0,
+                nav:false,
             },
             768:{
-               
+               items:1,
             },
             1140:{
              items:2,
+             center:true,
             }
         }
     })
