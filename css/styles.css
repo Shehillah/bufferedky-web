@@ -218,3 +218,7 @@ opacity: 0;
 .team-member h5{
   margin-top: 24px;
 }
+/* REVIEWS */
+.review{
+  background: linear-gradient(rgba(9,32,50,0.4),rgba(9,32,50,0.4)), url(../images/buffer2.jpg);
+}
