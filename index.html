@@ -452,18 +452,29 @@
 
 <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
+  <div class="modal-dialog modal-xl modal-dialog-centered">
     <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        ...
+           <div class="modal-body">
+        <div class="container-fluid">
+          <div class="col-4 bg-cover" style="background-image: url(); min-height: 300px;">
+              <div class="col-lg-8">
+                <form action="" class="row">
+                  <h1>get in touch</h1>
+                  <p>Let us see what you want and we are ready to provide you with your want</p>
+                  <div class="col-12">
+                    <div class="mb-3">
+                      <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    </div>
+                  </div>
+                </form>
+              </div>
+          </div>
+        </div>
       </div>
       <div class="modal-footer">
+        <button type="button" class="btn btn-brand">Send Message</button>
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
       </div>
     </div>
   </div>
