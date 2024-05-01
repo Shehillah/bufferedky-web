@@ -219,6 +219,26 @@ opacity: 0;
   margin-top: 24px;
 }
 /* REVIEWS */
+#review{
+  background: linear-gradient(rgba(9,32,50,0.4),rgba(9,32,50,0.4)), url(../images/street.jpg);
+}
 .review{
-  background: linear-gradient(rgba(9,32,50,0.4),rgba(9,32,50,0.4)), url(../images/buffer2.jpg);
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+}
+.review img{
+  width: 85px !important;
+  border-radius: 1000px;
+  margin: auto;
+}
+.review h4,
+.review p{
+  color: #ffffff;
+}
+.review small{
+  color:  green;
+}
+.review p{
+  margin-top: 28px;
 }
