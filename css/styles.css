@@ -219,8 +219,8 @@ opacity: 0;
   margin-top: 24px;
 }
 /* REVIEWS */
-#review{
-  background: linear-gradient(rgba(9,32,50,0.4),rgba(9,32,50,0.4)), url(../images/street.jpg);
+#reviews{
+  background: linear-gradient(rgba(9,32,50,0.8),rgba(9,32,50,0.8)), url(../images/strees.jpg);
 }
 .review{
   max-width: 900px;

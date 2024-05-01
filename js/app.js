@@ -54,4 +54,5 @@ $(document).ready(function(){
         nav:false,
         dots:true,
         items:1,
+        smartSpeed:800,
     })
