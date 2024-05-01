@@ -101,6 +101,9 @@ border-radius: 100%;
   background-color: #14452f
 }
 /* SLIDER */
+#hero-slider h1{
+font-weight: 700 !important;
+}
 .slide1{
   background: linear-gradient(rgba(9,32,50,0.4),rgba(9,32,50,0.4)), url(../images/buffer2.jpg);
 }
@@ -183,6 +186,9 @@ background-color: green !important;
   transition: 0.5s;
 }
 /*TEAM */
+#team{
+  padding-top: 0%;
+}
 .team-member{
 text-align:center ;
 }
@@ -245,6 +251,7 @@ opacity: 0;
 .owl-dot.active span{
   background-color: green !important;
 }
+/* BLOG */
 .blog-post{
   position: relative;
 }
@@ -256,6 +263,9 @@ opacity: 0;
   top: 20px;
   left: 20px;
   position: absolute;
+}
+.blog-post a{
+  font-weight: 700;
 }
 .blog-post img {
   margin-bottom: 12px;
