@@ -85,7 +85,7 @@ border-radius: 100%;
   color: #092032;
 }
 .navbar-brand span{
-  color: #ff4d29;
+  color: green;
 }
 /*Navbar button */
 .btn{
@@ -98,7 +98,7 @@ border-radius: 100%;
 }
 .btn-brand:hover{
   color: #ffffff;
-  background-color: #14452f
+  background-color: green
 }
 /* SLIDER */
 #hero-slider h1{
@@ -303,4 +303,9 @@ footer .social-links{
 margin-left: 5px;
 margin: 5px;
 
+}
+/* FORM */
+.form-control:focus{
+  box-shadow: none;
+  border-color: green;
 }
