@@ -89,10 +89,12 @@ border-radius: 100%;
 }
 /*Navbar button */
 .btn{
+  color: green;
   padding: 9px 24px;
+  font-weight: 500;
 }
 .btn-brand{
-  background-color: green;
+  background-color: green !important;
   color: #ffffff;
   border-color: green;
 }
