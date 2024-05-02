@@ -10,7 +10,7 @@ color: #092032;
 
 a{
   color: #092032;
-  text-decoration: none;
+  text-decoration: none !important;
   transition: all 0.4s;
   font-weight: 500;
 }
@@ -99,8 +99,8 @@ border-radius: 100%;
   border-color: green;
 }
 .btn-brand:hover{
-  color: #ffffff;
-  background-color: green
+  color: #ffffff !important;
+  background-color: rgb(1, 72, 1)
 }
 /* SLIDER */
 #hero-slider h1{
@@ -308,6 +308,6 @@ margin: 5px;
 }
 /* FORM */
 .form-control:focus{
-  box-shadow: none;
-  border-color: green;
+  box-shadow: none !important;
+  border-color: green !important;
 }
