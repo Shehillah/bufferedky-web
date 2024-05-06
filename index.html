@@ -61,13 +61,13 @@
             <a class="nav-link active" aria-current="page" href="#services">Services</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="signup">Students</a>
+            <a href="#" class="btn btn-brand ms-lg-3" data-bs-toggle="modal" data-bs-target="#StudentRegistration">Students</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#teams">Team</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#reviews">Academics</a>
+            <a href="#" class="btn btn-brand ms-lg-3" data-bs-toggle="modal" data-bs-target="#Register">Academic</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#projects">projects</a>
@@ -454,12 +454,12 @@
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-xl modal-dialog-centered">
     <div class="modal-content">
-           <div class="modal-body p-0">
+      <div class="modal-body p-0">
         <div class="container-fluid">
           <div class="row">
             <div class="col-lg-4 bg-cover" style="background-image: url(./images/member3.jpg); min-height: 300px;">
               
-          </div>
+         </div>
           <div class="col-lg-8">
             <form action="" class="row p-lg-5 gy-3">
               <div class="col-lg-12">
@@ -484,7 +484,7 @@
           </div>
           <div class="col-12">
             <button type="button" class="btn btn-brand">Send Message</button>
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
           </div>
             </form>
           </div>
@@ -494,28 +494,141 @@
     </div>
   </div>
 </div>
-
-<!-- login form -->
-<div class="container" id="singup">
-  <div class="row mt-5">
-      <div class="col-lg-4 bg-white m-auto">
-          <h2 class="text-center pt-3">Sign-up Now</h2>
-          <p class="text-center">it takes a minute</p>
-          <!-- form start -->
-          <form action="#">
-              <div class="input-group">
-                  <span class="input-group-text"><i class="fas fa-user"></i>
-
-                  </span>
+<!-- Student Reg -->
+<div class="modal fade" id="StudentRegistration" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-body">
+          <div class="row"> 
+          <div class="col-lg-10">
+            <form action="" class="row p-lg-5 gy-3">
+              <div class="col-lg-12">
+                <h1 class="text-center">Student's Information  </h1>
+              <p class="text-center">Let us see what you want and we are ready to provide you with your want</p>
               </div>
-          </form>
+              <div class="col-lg-6">
+                <label for="exampleFormControlInput1" class="form-label">First Name</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="First Name">
+            </div>
+              <div class="col-lg-6">
+                <label for="exampleFormControlInput1" class="form-label">Last Name</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Last Name">
+            </div>
 
+            <div class="col-lg-6">
+              <label for="exampleFormControlInput1" class="form-label">phone</label>
+              <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Phone Number">
+          </div>
+            <div class="col-lg-6">
+              <label for="exampleFormControlInput1" class="form-label">Contact address</label>
+              <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Address">
+          </div>
 
-          <!-- from stop -->
+          <div class="col-lg-6">
+            <label for="exampleFormControlInput1" class="form-label">Gender</label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="gender">
+        </div>
+          <div class="col-lg-6">
+            <label for="exampleFormControlInput1" class="form-label">Date of birth</label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Date of birth">
+        </div>
+
+        
+            <div class="col-lg-12">
+              <label for="exampleFormControlInput1" class="form-label">email</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Shehillah@yahoo.com">
+          </div>
+          <div class="col-lg-12">
+            <label for="message" class="form-label"> message</label>
+            <textarea name="" id="" cols="" rows="4" class="form-control" placeholder="you are amazing"></textarea>
+          </div>
+          <div class="col-12">
+            <button type="button" class="btn btn-brand">SAVE</button>
+            <button type="button" class="btn btn-brand" data-bs-dismiss="modal">Close</button>
+          </div>
+            </form>
+          </div>
+          </div> 
       </div>
+    </div>
   </div>
 </div>
+<!-- REGISTER -->
 
+<div class="modal" tabindex="-1" id="Register">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <form>
+          <!-- 2 column grid layout with text inputs for the first and last names -->
+          <div class="row mb-4">
+            <div class="col">
+              <div data-mdb-input-init class="form-outline">
+                <input type="text" id="form3Example1" class="form-control" />
+                <label class="form-label" for="form3Example1">First name</label>
+              </div>
+            </div>
+            <div class="col">
+              <div data-mdb-input-init class="form-outline">
+                <input type="text" id="form3Example2" class="form-control" />
+                <label class="form-label" for="form3Example2">Last name</label>
+              </div>
+            </div>
+          </div>
+        
+          <!-- Email input -->
+          <div data-mdb-input-init class="form-outline mb-4">
+            <input type="email" id="form3Example3" class="form-control" />
+            <label class="form-label" for="form3Example3">Email address</label>
+          </div>
+        
+          <!-- Password input -->
+          <div data-mdb-input-init class="form-outline mb-4">
+            <input type="password" id="form3Example4" class="form-control" />
+            <label class="form-label" for="form3Example4">Password</label>
+          </div>
+        
+          <!-- Checkbox -->
+          <div class="form-check d-flex justify-content-center mb-4">
+            <input class="form-check-input me-2" type="checkbox" value="" id="form2Example33" checked />
+            <label class="form-check-label" for="form2Example33">
+              Subscribe to our newsletter
+            </label>
+          </div>
+        
+          <!-- Submit button -->
+          <button data-mdb-ripple-init type="button" class="btn btn-primary btn-block mb-4">Sign up</button>
+        
+          <!-- Register buttons -->
+          <div class="text-center">
+            <p>or sign up with:</p>
+            <button data-mdb-ripple-init type="button" class="btn btn-secondary btn-floating mx-1">
+              <i class="fab fa-facebook-f"></i>
+            </button>
+        
+            <button data-mdb-ripple-init type="button" class="btn btn-secondary btn-floating mx-1">
+              <i class="fab fa-google"></i>
+            </button>
+        
+            <button data-mdb-ripple-init type="button" class="btn btn-secondary btn-floating mx-1">
+              <i class="fab fa-twitter"></i>
+            </button>
+        
+            <button data-mdb-ripple-init type="button" class="btn btn-secondary btn-floating mx-1">
+              <i class="fab fa-github"></i>
+            </button>
+          </div>
+        </form>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
     <script src="./js/jquery.min.js"> </script>
     <script src="./js/bootstrap.bundle.js"> </script>
     <script src="./js/owl.carousel.min.js"> </script>

@@ -306,8 +306,15 @@ margin-left: 5px;
 margin: 5px;
 
 }
-/* FORM */
+
+
+/* form */
 .form-control:focus{
   box-shadow: none !important;
   border-color: green !important;
+}
+.modal-body h1{
+  font-weight: 700;
+  color: green;
+  border-radius: 100%;
 }
