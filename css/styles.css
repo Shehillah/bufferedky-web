@@ -317,4 +317,9 @@ margin: 5px;
   font-weight: 700;
   color: green;
   border-radius: 100%;
+  font-family: Poppins, sans-serif;
+}
+
+.modal-body .col-lg-10{
+  border-color: black;
 }
