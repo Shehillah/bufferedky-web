@@ -543,13 +543,12 @@
             </div>
         </div>
           <div class="col-lg-6">
-            <div class="input-group mb-3" id="datetimepicker">
-              <span class="input-group-addon"><i class="fa fa-user"></i>
-                <span class="glyphicon glyphicon-calender"></span></span>
-              
-              <input type="text" class="form-control" placeholder="Address">
+            <div class="input-group" id="datetimepicker">
+              <span class="input-group-text"><i class="fa fa-user"></i></span>
+                <input type="text" class="form-control">
+                <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span>
             </div>
-        </div>
+          </div>
 
         
             <div class="col-lg-12">
@@ -558,17 +557,9 @@
           </div>
 
           <div class="col-lg-6">
-            <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" checked>Option 1
-            <label class="form-check-label" for="radio1"></label>
+
           </div>
-          <div class="form-check">
-            <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2">Option 2
-            <label class="form-check-label" for="radio2"></label>
-          </div>
-          <div class="form-check">
-            <input type="radio" class="form-check-input" disabled>Option 3
-            <label class="form-check-label"></label>
-          </div>
+           
 
           <div class="col-lg-6">
               <label for="exampleFormControlInput1" class="form-label">email</label>
@@ -669,6 +660,13 @@
     </div>
   </div>
 </div>
+
+
+  <script class="text/javascript">
+    $(function(){
+      $('datetimepicker').datetimepicker();
+    })
+  </script>
     <script src="./js/jquery.min.js"> </script>
     <script src="./js/bootstrap.bundle.js"> </script>
     <script src="./js/owl.carousel.min.js"> </script>
