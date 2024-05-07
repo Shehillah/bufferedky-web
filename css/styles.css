@@ -56,6 +56,18 @@ color: #ffffff;
 .top-nav span{
   vertical-align: middle;
 }
+/* .nav-link{
+  color: black;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  text-decoration: none;
+}
+.nav-link:hover{
+  background-color: #ffffff;
+  color: green; */
+  
+/* } */
 .social-links a{
 width: 34px;
 height: 34px;
@@ -77,7 +89,8 @@ border-radius: 100%;
 .navbar .navbar-nav .nav-link:hover
 /* .navbar .navbar-nav .nav-link.active */
 {
-  color: green;
+  color: white;
+  background-color:green;
 }
 .navbar-brand{
   font-weight: 700;
