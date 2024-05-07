@@ -334,7 +334,8 @@ margin: 5px;
 }
 
 .modal-body .col-lg-10{
-  border-color: black;
+  border-color: #516171 !important;
+  background-color: whitesmoke;
 }
 textarea{
   resize: none !important;
