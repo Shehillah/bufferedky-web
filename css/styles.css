@@ -323,3 +323,6 @@ margin: 5px;
 .modal-body .col-lg-10{
   border-color: black;
 }
+textarea{
+  resize: none !important;
+}
