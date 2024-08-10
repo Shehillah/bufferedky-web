@@ -26,38 +26,59 @@
                 <form action="#">
                     <div class="col-lg-12">
                         <span class="input-group-text"><i class="fa fa-user"></i>
-                          <input type="text" class="form-control" placeholder="First Name"/>
+                          <input type="text" id="tbfname" class="form-control" placeholder="First Name"/>
                         </span>
                     </div>
                     <div class="col-lg-12">
                       <span class="input-group-text"><i class="fa fa-user"></i>
-                        <input type="text" class="form-control" placeholder="Last Name"/>
+                        <input type="text" id="tblname" class="form-control" placeholder="Last Name"/>
                       </span>
                   </div>
                   <div class="col-lg-12">
                     <span class="input-group-text"><i class="fa fa-envelope"></i>
-                      <input type="text" class="form-control" placeholder="email"/>
+                      <input type="text" id="email" class="form-control" placeholder="email"/>
                     </span>
                 </div>
                 <div class="col-lg-12">
                   <span class="input-group-text"><i class="fa fa-lock"></i>
-                    <input type="text" class="form-control" placeholder="Password"/>
+                    <input type="text" id="passw" class="form-control" placeholder="Password"/>
                   </span>
               </div>
               <div class="col-lg-12">
                 <span class="input-group-text"><i class="fas fa-lock"></i>
-                  <input type="text" class="form-control" placeholder="Confirm Passoword"/>
+                  <input type="text" id="cpassw" class="form-control" placeholder="Confirm Passoword"/>
                 </span>
             </div>
             <div class="d-grid">
-              <button type="button" class="btn btn-success">Signup Now</button>
+              <button type="button" id="btnreg" class="btn btn-success" onclick="display()"> Signup Now</button>
             </div>
             <p class="text-center text-muted">When you sign-up b clicking Sign-up Now, you agree with our<a href=""> 
-              terms and conditions</a> and <a href=""> privacy policy </a></p>
+              terms and conditions</a> and <a href="" onclick="display()"> privacy policy </a></p>
               <p>Already have an account? <a href="login.html">login</a></p>
             </div>
         </div>
     </div>
+
+<script>
+  const txtfname = document.getElementById('tbfname');
+  const txtlname = document.getElementById('tblname');
+  const txtemail = document.getElementById('email');
+  const txtpass  = document.getElementById('passw');
+  const txtcpass = document.getElementById('cpassw');
+  
+  // const btnsignup = document.getElementById('btnreg');
+
+  function display(){
+    // txtfname.innerHTML = txtfname.value;
+    // alert();
+
+    console.log("ghggfgffgfghgfhgf ");
+  }
+
+  
+  // btnsignup.addEventListener('click',display);
+
+</script>
 
 
 

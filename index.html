@@ -520,26 +520,26 @@
               <div class="col-lg-6">
                 <div class="input-group mb-3">
                   <span class="input-group-text"><i class="fa fa-user"></i></span>
-                  <input type="text" class="form-control" placeholder="First Name">
+                  <input type="text" id="sfname" class="form-control" placeholder="First Name">
                 </div>      
             </div>
               <div class="col-lg-6">
                 <div class="input-group mb-3">
                   <span class="input-group-text"><i class="fa fa-user"></i></span>
-                  <input type="text" class="form-control" placeholder="Last Names">
+                  <input type="text" id="slname" class="form-control" placeholder="Last Names">
                 </div>
             </div>
 
             <div class="col-lg-6">
               <div class="input-group mb-3">
                 <span class="input-group-text"><i class="fa fa-phone"></i></span>
-                <input type="number" class="form-control" placeholder="Phone Number">
+                <input type="number" id="sphone" class="form-control" placeholder="Phone Number">
               </div>
           </div>
             <div class="col-lg-6">
               <div class="input-group mb-3">
                 <span class="input-group-text"><i class="fa fa-envelope"></i></span>
-                <input type="email" class="form-control" placeholder="Enter your Email">
+                <input type="email" id="semail" class="form-control" placeholder="Enter your Email">
               </div>
           </div>
 
@@ -556,7 +556,7 @@
           <div class="col-lg-6">
             <div class="input-group date" id="datepicker">
               <span class="input-group-text"><i class="far fa-calendar-alt"></i></span>
-                <input type="date" class="form-control" placeholder="Date of birth">
+                <input type="date" id="sdob" class="form-control" placeholder="Date of birth">
                   <!-- <span class="input-group-text">
                     <i class="far fa-calendar-alt"></i>
               </span> -->
@@ -565,7 +565,7 @@
             <div class="col-lg-12">
             <div class="input-group mb-3">
               <span class="input-group-text"><i class="fa fa-envelope"></i></span>
-              <textarea name="" id="" cols="" rows="4" class="form-control" placeholder="Enter your address"></textarea>
+              <textarea name="" id="sadd" cols="" rows="4" class="form-control" placeholder="Enter your address"></textarea>
             </div>  
             <!-- <label for="message" class="form-label"> message</label>
             <textarea name="" id="" cols="" rows="4" class="form-control" placeholder="Add your comment"></textarea> -->
@@ -573,65 +573,65 @@
               <div class="col-lg-6">
                 <div class="input-group mb-3">
                   <span class="input-group-text"><i class="fa fa-flag"></i></span>
-                  <input type="text" class="form-control" placeholder="Country">
+                  <input type="text" id="scountry" class="form-control" placeholder="Country">
                 </div>      
             </div>
             <div class="col-lg-6">
               <div class="input-group mb-3">
                 <span class="input-group-text"><i class="fa fa-user"></i></span>
-                <input type="text" class="form-control" placeholder="State">
+                <input type="text" id="sstate" class="form-control" placeholder="State">
               </div>      
           </div>
 
           <div class="col-lg-6">
             <div class="input-group mb-3">
               <span class="input-group-text"><i class="fa fa-user"></i></span>
-              <input type="text" class="form-control" placeholder="Local Government">
+              <input type="text" id="slg" class="form-control" placeholder="Local Government">
             </div>      
         </div>
         <div class="col-lg-6">
           <div class="input-group mb-3">
             <span class="input-group-text"><i class="fa fa-user"></i></span>
-            <input type="text" class="form-control" placeholder="Village/Town">
+            <input type="text" id="stown" class="form-control" placeholder="Village/Town">
           </div>      
       </div>
 
       <div class="col-lg-6">
         <div class="input-group mb-3">
           <span class="input-group-text"><i class="fas fa-graduation-cap"></i></span>
-          <input type="text" class="form-control" placeholder="Higher Qualification">
+          <input type="text" id="sHQ" class="form-control" placeholder="Higher Qualification">
         </div>      
     </div>
     <div class="col-lg-6">
       <div class="input-group mb-3">
         <span class="input-group-text"><i class="	fas fa-award"></i></span>
-        <input type="text" class="form-control" placeholder="Experience">
+        <input type="text" id="sexp" class="form-control" placeholder="Experience">
       </div>      
     </div>
 
     <div class="col-lg-6">
       <div class="input-group mb-3">
         <span class="input-group-text"><i class="fa fa-user"></i></span>
-        <input type="text" class="form-control" placeholder="Occupation">
+        <input type="text" id="soccup" class="form-control" placeholder="Occupation">
       </div>      
     </div>
     <div class="col-lg-6">
     <div class="input-group mb-3">
       <span class="input-group-text"><i class="fab fa-playstation"></i></span>
-      <input type="text" class="form-control" placeholder="Hubby">
+      <input type="text" id="shubby" class="form-control" placeholder="Hubby">
     </div>      
     </div>
 
           <div class="col-lg-12">
             <div class="input-group mb-3">
               <span class="input-group-text"><i class="fa fa-envelope"></i></span>
-              <textarea name="" id="" cols="" rows="4" class="form-control" placeholder="Add your comment"></textarea>
+              <textarea name="scomment" id="" cols="" rows="4" class="form-control" placeholder="Add your comment"></textarea>
             </div>  
             <!-- <label for="message" class="form-label"> message</label>
             <textarea name="" id="" cols="" rows="4" class="form-control" placeholder="Add your comment"></textarea> -->
           </div>
           <div class="col-12">
-            <button type="button" class="btn btn-brand">SAVE</button>
+            <button type="button" id="btnsave" class="btn btn-brand" onclick="Student_Info()">SAVE</button>
             <button type="button" class="btn btn-brand" data-bs-dismiss="modal">Close</button>
           </div>
             </form>
@@ -660,33 +660,33 @@
         </div>
       </div>
 
-          <h5 class="text-center">Use your email for registration</h5>
+          <h5 class="text-center">Use your email to Register</h5>
           <div class="col-lg-10">
             <div class="input-group mb-3">
               <span class="input-group-text"><i class="fa fa-user"></i></span>
-              <input type="text" class="form-control" placeholder="Enter your Name">
+              <input type="text" id="tbname" class="form-control" placeholder="Enter your Name">
             </div>      
         </div>
           <div class="col-lg-10">
             <div class="input-group mb-3">
               <span class="input-group-text"><i class="fa fa-envelope"></i></span>
-              <input type="email" class="form-control" placeholder="Email">
+              <input type="email" id="email" class="form-control" placeholder="Email">
             </div>      
         </div>
           <div class="col-lg-10">
             <div class="input-group mb-3">
               <span class="input-group-text"><i class="fa fa-user"></i></span>
-              <input type="password" class="form-control" placeholder="Password">
+              <input type="password" id="passw" class="form-control" placeholder="Password">
             </div>      
         </div>
         <div class="col-lg-10">
           <div class="input-group mb-3">
             <span class="input-group-text"><i class="fa fa-user"></i></span>
-            <input type="password" class="form-control" placeholder="Confirm Password">
+            <input type="password" id="cpassw" class="form-control" placeholder="Confirm Password">
           </div>      
       </div>
     <div class="text-center">
-      <button type="button" class="btn btn-brand pt-10">Register</button>
+      <button type="button" class="btn btn-brand pt-10" onclick="Register()">Register</button>
     </div>
     <div class="toggle-panel ">
       <p class="text-center">Already have an account  <a href="#Register" data-bs-toggle="modal" data-bs-target="#login">Login</a> </p>
@@ -717,21 +717,21 @@
         </div>
       </div>
 
-          <h5 class="text-center">Use your Username and Password to Login</h5>
+          <h5 class="text-center">Use your Credentials to Login</h5>
           <div class="col-lg-10">
             <div class="input-group mb-3">
               <span class="input-group-text"><i class="fa fa-user"></i></span>
-              <input type="text" class="form-control" placeholder="Username">
+              <input type="email" id="lemail" class="form-control" placeholder="Email">
             </div>      
         </div>
         <div class="col-lg-10">
           <div class="input-group mb-3">
             <span class="input-group-text"><i class="fa fa-user"></i></span>
-            <input type="email" class="form-control" placeholder="Email">
+            <input type="password" id="lpassw" class="form-control" placeholder="Password">
           </div>      
       </div>
     <div class="text-center">
-      <button type="button" class="btn btn-brand pt-10">Login</button>
+      <button type="button" class="btn btn-brand pt-10" onclick="Login()">Login</button>
     </div>
     <div class="toggle-panel ">
       <p class="text-center">You don't have an account  <a href="#Register"  data-bs-toggle="modal" data-bs-target="#Register">Sign-in</a>
@@ -742,7 +742,48 @@
     </div>
   </div>
 </div>
- 
+
+<script>
+
+  //JS-REGISTER
+  function Register(){
+    const txtfname = document.getElementById('tbname');
+    const txtemail = document.getElementById('email');
+    const txtpass  = document.getElementById('passw');
+    const txtcpass = document.getElementById('cpassw');
+
+    alert(txtfname.value +" " + txtemail.value  +" " + txtpass.value  +" " + txtcpass.value);
+    
+  }
+
+  //JS-STUD-INFO
+  function Student_Info(){
+    const txtsfname  = document.getElementById('sfname');
+    const txtslnames = document.getElementById('slname');
+    const txtsphone  =document.getElementById('sphone');
+    const txtsemail  = document.getElementById('semail');
+    const txtsgender = document.getElementById('sgender');
+    const txtsdob    = document.getElementById('sdob');
+    const txtsadd    = document.getElementById('sadd');
+    const txtscountry= document.getElementById('scountry');
+    const txtsstate  = document.getElementById('sstate');
+    const txtslg     = document.getElementById('slg');
+    const txtstown   = document.getElementById('stown');
+    const txtsHQ     = document.getElementById('sHQ');
+    const txtsexp    = document.getElementById('sexp');
+    const txtsoccup  = document.getElementById('soccup');
+
+     alert(txtsfname.value +" "+ txtslnames.value +" "+ txtsphone.value +" "+txtsemail.value +" "+ txtsgender.value+" "+ txtsdob.value+" "+ txtsadd.value +" "+txtscountry.value+" "+txtsstate.value+" "+txtslg.value+" "+txtstown.value+" "+txtsHQ.value+" "+ txtsexp.value+" "+txtsoccup.value );
+  }
+
+//JS-STUD-INFO
+function Login(){
+  const txtemail = document.getElementById('lemail');
+  const txtlpassw = document.getElementById('lpassw');
+
+  alert(txtemail.value +" "+ txtlpassw.value);
+}
+</script>
     <script src="./js/jquery.min.js"> </script>
     <script src="./js/bootstrap.bundle.js"> </script>
     <script src="./js/owl.carousel.min.js"> </script>
